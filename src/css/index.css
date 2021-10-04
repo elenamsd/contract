@@ -1,16 +1,16 @@
 :root {
-  --text-type:'Uncial Antiqua', cursive;
-  --list-color: #CDAE8C;
+  --text-type: 'Uncial Antiqua', cursive;
+  --list-color: #cdae8c;
 }
 
 body {
-  background-color: black;
   background: url(https://wallpaperaccess.com/full/3561361.jpg);
   padding: 40px;
   font-family: 'MedievalSharp', cursive;
   text-align: justify;
   font-size: 18px;
 }
+
 button {
   background-color: var(--list-color);
   width: 150px;
@@ -20,7 +20,7 @@ button {
   font-family: var(--text-type);
   font-size: 30px;
   text-align: center;
-  margin: 10px
+  margin: 10px;
 }
 
 button:hover {
@@ -32,11 +32,12 @@ button:hover {
   background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg);
   border: 30px double black;
   width: 70%;
-  margin:auto;
+  margin: auto;
   padding: 15px;
 }
 
-h1, h4 {
+h1,
+h4 {
   text-align: center;
   font-family: var(--text-type);
   font-size: 70px;
@@ -47,19 +48,22 @@ h1, h4 {
 h4 { font-size: 20px; }
 
 #stewie {
-  background-color:  #FF000015;
+  background-color: #ff000015;
   border-radius: 50%;
-  transform:  translate(450px, 10px)
-              rotate(60deg);
+  transform:
+    translate(450px, 10px)
+    rotate(60deg);
   margin: auto;
-  filter: sepia(70%)
-          contrast(200%);
-  transition: transform .5s;
+  filter:
+    sepia(70%)
+    contrast(200%);
+  transition: transform 0.5s;
 }
 
 #stewie:hover {
-  transform:  translate(450px, 10px)
-              rotate(420deg);
+  transform:
+    translate(450px, 10px)
+    rotate(420deg);
 }
 
 .features { list-style-type: upper-roman; }
